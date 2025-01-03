@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #af4c91;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+      padding: 10px;
+    }
+
+    nav a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #4caf50;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    #about img {
+      border-radius: 50%;
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .skills-list {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .skills-list div {
+      background: #9ac7da;
+      border: 1px solid #ccc;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .project-card {
+      background: #94e9a2;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin: 10px auto;
+      padding: 20px;
+      width: 80%;
+      text-align: left;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .project-card h3 {
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pujitha Mamidishetty</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="image/Profile Photo.jpeg" alt="Your Image">
+    <p>I'm currently a sophomore majoring in Data Science with a minor degree in Augmented Reality / Virtual Reality & 3D Modelling at the Usha Mittal Institute of Technology of Mumbai. With a keen interest in Data Science and Software Engineering, I have developed a strong foundation in several programming languages, including C, HTML, CSS and Python. I am passionate about applying my technical skills to real world problems, which is why I actively seek opportunities to participate and showcase my skills. I also a great knowledge in Microsoft Office Applications (Excel, Word, PPT) and i am looking forward to various opportunities within the field.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>React</div>
+      <div>Node.js</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3> Scrapcycle : The Marketplace for Reusable Household Items</h3>
+      <img src="image/Project page.jpeg" alt="Project Image"  width="300">
+      <p>ScrapCycle mainly focuses on recycling and repurposing scrap materials. It mainly aims to create an online platform dedicated to the reuse and recycling of household scraps. This project addresses the growing need for sustainable waste management by providing a user-friendly website where individuals can buy and sell second-hand items, including clothes, furniture, electronics, and many more. By facilitating the exchange of reusable goods, ScrapCycle promotes environmental sustainability, reduces landfill waste, and encourages a circular economy. The platform includes features such as detailed item listings, user reviews, secure transactions, and local pickup options to enhance user experience and trust. Ultimately, ScrapCycle seeks to build a community of environmentally conscious consumers who contribute to a greener future through the responsible reuse of household items.</p>
+    </div>
+  
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>
+        <a href="files/RESUME RECNT .pdf" download="My_Resume.pdf">Download My Resume</a>
+    </p>
+    <style>
+        #resume {
+            text-align: center;
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        #resume h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+        #resume a {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        #resume a:hover {
+            background-color: #218c4a;
+        }
+    </style>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: pujitha23130@gmail.com</p>
+    <p>Phone: +91 8686575731</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Pujitha Mamidishetty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+   
